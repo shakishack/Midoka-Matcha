@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midoka Matcha</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">MIDOKA<span>MATCHA</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu" class="nav-menu-link">
+          <span>Menu</span>
+          <i data-feather="chevron-down"></i>
+        </a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div
+        class="hero-bg"
+        role="img"
+        aria-label="Background Matcha"
+        style="background: url('img/matcha-latte.jpg')"
+      ></div>
+
+      <div class="container hero-content">
+        <h1>Best Matcha in Town</h1>
+        <p>Premium Japanese Matcha untuk hari yang lebih tenang & fokus.</p>
+        <a href="#menu" class="btn">Order Now</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Midoka</h2>
+        <p>
+          Midoka Matcha menghadirkan matcha premium dengan rasa umami halus,
+          aroma fresh, dan kualitas terbaik dari Jepang. Dibuat untuk kamu yang
+          ingin menikmati matcha original, tanpa campuran berlebih.
+        </p>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section menu">
+      <div class="container">
+        <h2>Our Menu</h2>
+
+        <div class="menu-list">
+          <div class="menu-item">
+            <img src="img/Iced-matcha.jpg" alt="Matcha Oat" class="menu-img" />
+            <span class="menu-name">Iced Matcha Latte</span>
+            <span class="price">IDR 32K</span>
+          </div>
+
+          <div class="menu-item">
+            <img
+              src="img/matcha-latte.jpg"
+              alt="Matcha Latte"
+              class="menu-img"
+            />
+            <span class="menu-name">Hot Matcha</span>
+            <span class="price">IDR 28K</span>
+          </div>
+
+          <div class="menu-item">
+            <img
+              src="img/matcha-powder.jpg"
+              alt="Matcha Powder 30gr"
+              class="menu-img"
+            />
+            <span class="menu-name">Matcha Powder 30gr</span>
+            <span class="price">IDR 75K</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Nama" required />
+          <input type="email" placeholder="Email" required />
+          <textarea rows="3" placeholder="Pesan..." required></textarea>
+          <button type="submit" class="btn full">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2025 Midoka Matcha</p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
